@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Pedro Pereira</h1>
+        <nav>
+            <ul> <!--Links internos, acessando o conteúdo numa página só-->
+                <li><a href="#sobre-mim">Sobre Mim</a></li> 
+                <li><a href="#formacao">Formação</a></li> 
+                <li><a href="#portfolio">Portfólio</a></li> 
+                <li><a href="#contato">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--Conteúdo Principal-->
+        <section id="sobre-mim"> <!--Seção falando sobre mim-->
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Pedro, tenho 33 anos e curso Engenharia de Software. Desde de pequeno sempre gostei muito de tecnologia, jogando video games e mexendo no computador. Apesar da paixão em tecnologia acabei fazendo faculdade em outra área, mas não terminei. Então resolvi fazer o que gosto e fui para área de TI.</p>
+            <p>Meus hobbies são praticar esportes, jogar video game, sair com amigos, viajar, entre outros. Estou sempre procurando aprender novas coisas, principalmente na área de TI.</p>
+        </section>
+
+        <section id="formacao"> <!--Seção de formação educacional-->
+            <h2>Formação</h2>
+            <p>
+                Ensino Superior Completo<br>
+                Idiomas: Inglês Intermediário<br>
+                Curso de Informática: Nível Avançado
+            </p>
+        </section>
+
+        <section id="portfolio"> <!--Seção sobre meus projetos-->
+            <h2>Portfólio</h2>
+            <p>
+                Meus Projetos:<br>
+                <a href="https://pedrobr8.github.io/projeto1/" target="_blank">Site 1</a> - Um exemplo de site de tecnologia (Aula 2). <br>
+                <a href="https://pedrobr8.github.io/projeto2/" target="_blank">Site 2</a> - Exemplo de site de currículo.
+            </p>
+        </section>
+
+        <section id="contato"> <!--Seção de formmulário-->
+            <h2>Contato</h2>
+            <form> <!--Formulário para contato-->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pedro Pereira </p>
+    </footer>
+</body>
+</html>
